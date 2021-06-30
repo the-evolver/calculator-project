@@ -1,0 +1,231 @@
+#calculator{
+    margin:auto;
+    height: 45rem;
+    width:35rem;
+    background-color:rgb(28, 107, 153);
+    padding-top:10%;
+    padding-left:25px;
+    box-sizing: border-box;
+}
+
+
+
+#heading {
+
+ font-size:larger;
+ font-family:serif;
+ color:white;
+ background-color: black;
+ width:32rem;
+ height: 6rem;
+ margin-bottom:15px;
+ letter-spacing: 4px;
+ padding-left:19%;
+ padding-top:1px;
+ box-sizing: border-box;
+}
+#display{
+
+    height: 6rem;
+    width: 32rem;
+    background-color:wheat;
+    margin-bottom: 10px;
+    border-radius:5px;
+
+}
+
+#value{
+ font-size:larger;
+ position: relative;
+ top:70%;
+ left:10px;
+ 
+
+
+}
+
+
+
+
+
+#row1{
+    height: 5rem;
+    width:32rem;
+    background-color:steelblue;
+}
+
+.r1{
+    display: inline-block;
+    background-color:slategrey;
+    color:ghostwhite;
+    height: 4rem;
+    width:7.95rem;
+    font-size: larger;
+    
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+    margin-right:-3px;
+
+}
+
+
+#row2{
+    height:5rem;
+    width:32rem;
+    background-color: steelblue;
+    margin-top:-15px;
+
+}
+.r2{
+
+    display: inline-block;
+    background-color:slategrey;
+    color:ghostwhite;
+    height: 4rem;
+    width:7.95rem;
+    font-size: larger;
+    margin-right:-3px; 
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+
+}
+#row3{
+    height:5rem;
+    width:32rem;
+    background-color: steelblue; 
+    margin-top:-15px;
+
+}
+
+.r3{
+
+    display: inline-block;
+    background-color:slategrey;
+    color:ghostwhite;
+    height: 4rem;
+    width:7.95rem;
+    font-size: larger;
+    margin-right:-3px; 
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+
+}
+#row4{
+    height:5rem;
+    width:32rem;
+    background-color: steelblue; 
+    margin-top:-15px;
+
+}
+.r4{
+    display: inline-block;
+    background-color:slategrey;
+    color:ghostwhite;
+    height: 4rem;
+    width:7.95rem;
+    font-size: larger;
+    margin-right:-3px; 
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid brown; 
+}
+#row5{
+    height:4rem;
+    width:32rem;
+    background-color: steelblue; 
+    margin-top:-15px;
+}
+.r5{
+    
+    display: inline-block;
+    background-color:slategrey;
+    color:ghostwhite;
+    height: 4rem;
+    width:7.95rem;
+    font-size: larger;
+    margin-right:-3px; 
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid brown;
+      
+}
+.r5:nth-child(1){
+    width:15.91rem;
+}
+
+  
+.r1:nth-child(4){
+    background-color:rgb(128, 5, 32);
+}
+.r2:nth-child(4){
+    background-color: rgb(25,59,77);
+}
+.r3:nth-child(4){
+    background-color:rgb(128, 5, 32); 
+}
+.r4:nth-child(4){
+    background-color: rgb(25,59,77); 
+}
+.r5:nth-child(3){
+    background-color: rgb(128, 5, 32);
+}
+.r1:hover{
+    position :relative;
+    top:5px;
+     left:2px;
+     color:black;
+     background-color:plum;
+     transition-duration: 2s;
+     box-shadow:1px 1px 1px 1px black;
+  
+  
+  }
+  .r2:hover{
+    position :relative;
+    top:5px;
+     left:2px;
+     color:black;
+     background-color:lightcoral;
+     transition-duration: 2s;
+     box-shadow:1px 1px 1px 1px black;
+  
+  
+  }
+  .r3:hover{
+    position :relative;
+    top:5px;
+     left:2px;
+     color:black;
+     background-color:greenyellow;
+     transition-duration: 2s;
+     box-shadow:1px 1px 1px 1px black;
+  
+  
+  }
+  .r4:hover{
+    position :relative;
+    top:5px;
+     left:2px;
+     color:black;
+     background-color:coral;
+     transition-duration: 2s;
+     box-shadow:1px 1px 1px 1px black;
+
+  
+  
+  }
+
+  .r5:hover{
+    position :relative;
+    top:5px;
+     left:2px;
+     color:black;
+     background-color:crimson;
+     transition-duration: 2s;
+     box-shadow:1px 1px 1px 1px black;
+  
+  
+  }
